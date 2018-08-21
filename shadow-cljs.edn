@@ -1,0 +1,4 @@
+{:source-paths ["src"]
+ :builds {:app {:target :browser
+                :output-dir "cljs_output"
+                :modules {:main {:entries [app]}}}}}
